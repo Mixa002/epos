@@ -1,0 +1,26 @@
+.nav{
+    background-color: red;
+    color: white;
+}
+
+.nav:hover{
+    color: blue;
+}
+
+
+#naslov{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav a {
+    color: inherit; /* Nema plave boje na linku */
+    text-decoration: none; /* Brise podvuceno ispod linkova*/
+    text-align: center;
+}
+
+/* body{
+    background-image: url("slike/Marakana1.png");
+    background-size: cover;
+} */
